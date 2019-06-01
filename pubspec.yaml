@@ -1,0 +1,17 @@
+name: android_alarm_manager_example
+description: Demonstrates how to use the android_alarm_manager plugin.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  android_alarm_manager:
+    path: ../
+  audioplayers: ^0.12.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/mp3/audio.mp3
