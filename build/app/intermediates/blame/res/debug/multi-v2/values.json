@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macbookpro/Desktop/HCI/android_alarm_manager/example/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/macbookpro/Desktop/HCI/weaky-weaky/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/macbookpro/Desktop/HCI/android_alarm_manager/example/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/macbookpro/Desktop/HCI/weaky-weaky/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

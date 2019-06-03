@@ -4,7 +4,7 @@ packages:
   android_alarm_manager:
     dependency: "direct main"
     description:
-      path: ".."
+      path: "plugins/android_alarm_manager"
       relative: true
     source: path
     version: "0.4.1+6"
