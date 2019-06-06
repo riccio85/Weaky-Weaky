@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/macbookpro/Desktop/HCI/android_alarm_manager/example/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml",
+            "outputFile": "/Users/macbookpro/Desktop/HCI/weaky-weaky/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml",
             "map": [
                 {
                     "source": "/Users/macbookpro/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/f925c15f55cd5d9857d6b76cf8b42273/res/values-kk/values-kk.xml",

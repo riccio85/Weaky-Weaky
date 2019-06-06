@@ -12,7 +12,7 @@ import 'package:audioplayers/audio_cache.dart';
 import 'package:audioplayers/audioplayers.dart';
 
 
-import 'package:android_alarm_manager_example/wakey.dart';
+
 
 
 
@@ -23,7 +23,7 @@ AudioPlayer player = new AudioPlayer(); // create this
 AudioCache cache = new AudioCache();
 
 void playLocal() async {
-  String localPath ='mp3/audio.mp3';
+  String localPath ='mp3/audio2.mp3';
   player= await cache.play(localPath);
 }
 
