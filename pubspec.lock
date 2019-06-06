@@ -4,9 +4,9 @@ packages:
   android_alarm_manager:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
+      name: android_alarm_manager
+      url: "https://pub.dartlang.org"
+    source: hosted
     version: "0.4.1+6"
   async:
     dependency: transitive
@@ -14,7 +14,7 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.2.0"
+    version: "2.1.0"
   audioplayers:
     dependency: "direct main"
     description:
@@ -108,7 +108,7 @@ packages:
       name: quiver
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.3"
+    version: "2.0.2"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -155,7 +155,7 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.5"
+    version: "0.2.4"
   typed_data:
     dependency: transitive
     description:
