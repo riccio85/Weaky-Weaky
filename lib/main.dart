@@ -12,6 +12,7 @@ import 'package:audioplayers/audio_cache.dart';
 import 'package:audioplayers/audioplayers.dart';
 
 import 'package:wakey_wakey/wakey.dart';
+import 'package:wakey_wakey/listView.dart';
 
 
 
@@ -42,7 +43,7 @@ Future<void> main() async {
 
 
   printMessage("main run");
-  runApp( MaterialApp(
+ /*runApp( MaterialApp(
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -54,7 +55,8 @@ Future<void> main() async {
         //Text('${DateTime.now()} dopo 15 sec deve smettere audio play', textDirection: TextDirection.ltr)
        )
       )
-  );
+  );*/
+  runApp( MyAlarms() );
 
   /*await AndroidAlarmManager.periodic(
       const Duration(seconds: 15), periodicID, stopAlarm,wakeup: true);
@@ -66,8 +68,8 @@ Future<void> main() async {
   await AndroidAlarmManager.periodic(
       const Duration(minutes: 1), periodicID, playLocal,wakeup: true);
 
-  await AndroidAlarmManager.periodic(
-      const Duration(minutes: 2), periodicID, stopAlarm,wakeup: true);
+  /*await AndroidAlarmManager.periodic(
+      const Duration(minutes: 2), periodicID, stopAlarm,wakeup: true);*/
 
   //https://stackoverflow.com/questions/54149840/flutter-android-alarm-manager-not-working
   /*
